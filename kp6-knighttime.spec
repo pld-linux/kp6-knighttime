@@ -1,17 +1,17 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeplasmaver	6.5.2
+%define		kdeplasmaver	6.5.3
 %define		qt_ver		6.8.0
 %define		kpname		knighttime
 Summary:	KNight Time
 Name:		kp6-%{kpname}
-Version:	6.5.2
+Version:	6.5.3
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
-# Source0-md5:	8777d0ef81794ff04571eae1c2d9dba3
+# Source0-md5:	7485e726bcbfb4f50d7623e7c1a16c4d
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Gui-devel >= %{qt_ver}
 BuildRequires:	gettext-tools
