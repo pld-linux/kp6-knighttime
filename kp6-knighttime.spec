@@ -7,13 +7,14 @@
 Summary:	KNight Time
 Name:		kp6-%{kpname}
 Version:	6.5.3
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
 # Source0-md5:	7485e726bcbfb4f50d7623e7c1a16c4d
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Gui-devel >= %{qt_ver}
+BuildRequires:	Qt6Positioning-devel >= %{qt_ver}
 BuildRequires:	gettext-tools
 BuildRequires:	kf6-extra-cmake-modules >= 6.18.0
 BuildRequires:	kf6-kconfig-devel >= 6.18.0
