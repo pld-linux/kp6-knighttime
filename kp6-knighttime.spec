@@ -30,6 +30,12 @@ The `KNightTime` provides helpers for scheduling the dark-light cycle.
 It can be used to implement features such as adjusting the screen
 color temperature based on time of day, etc.
 
+%description -l pl.UTF-8
+`KNightTime` dostarcza programów pomocniczych do planowania cyklu
+ciemny-jasny. Może być użyty do zaimplementowania takich właściwości
+jak dostosywanie temperatury koloru ekranu bazując na czasie dnia,
+itp.
+
 %package devel
 Summary:	Header files for %{kpname} development
 Summary(pl.UTF-8):	Pliki nagłówkowe dla programistów używających %{kpname}
