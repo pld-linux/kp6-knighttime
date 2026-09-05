@@ -7,7 +7,7 @@
 Summary:	KNight Time
 Name:		kp6-%{kpname}
 Version:	6.7.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
